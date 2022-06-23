@@ -1,0 +1,23 @@
+{
+  "name": "signalk-pushover-notification-relay",
+  "version": "1.0.0",
+  "description": "SignalK node plugin to relay notifications to the Pushover service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KvotheBloodless/signalk-pushover-notification-relay.git"
+  },
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-category-notifications"
+  ],
+  "author": "Paul Willems",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KvotheBloodless/signalk-pushover-notification-relay/issues"
+  },
+  "homepage": "https://github.com/KvotheBloodless/signalk-pushover-notification-relay#readme"
+}
