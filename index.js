@@ -64,7 +64,7 @@ module.exports = function (app) {
 
   function handle_notification_delta(app, id, notification, last_states) {
 
-    notification.updates.forEach(u => {
+    notification.updates?.forEach(u => {
 
       u.values.forEach(v => {
 
