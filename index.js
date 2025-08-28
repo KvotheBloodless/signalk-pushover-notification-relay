@@ -21,7 +21,7 @@ module.exports = function (app) {
       path: `notifications.*`,
       policy: 'instant'
     }];
-    if(config.notifications.length != 0)
+    if(config.notifications?.length !== 0)
       subscribes = config.notifications.map(n => {
 
         const subscribe = {};
