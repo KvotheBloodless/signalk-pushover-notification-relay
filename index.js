@@ -21,7 +21,7 @@ module.exports = function (app) {
       path: `notifications.*`,
       policy: 'instant'
     }];
-    if(config.notifications.length != 0)
+    if(config.notifications?.length !== 0)
       subscribes = config.notifications.map(n => {
 
         const subscribe = {};
@@ -64,7 +64,7 @@ module.exports = function (app) {
 
   function handle_notification_delta(app, id, notification, last_states) {
 
-    notification.updates.forEach(u => {
+    notification.updates?.forEach(u => {
 
       u.values.forEach(v => {
 
