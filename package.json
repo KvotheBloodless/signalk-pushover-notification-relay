@@ -1,6 +1,6 @@
 {
   "name": "signalk-pushover-notification-relay",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "SignalK node plugin to relay notifications to the Pushover service",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,10 @@
     "signalk-node-server-plugin",
     "signalk-category-notifications"
   ],
+  "signalk": {
+    "appIcon": "./icon.png",
+    "displayName": "Pushover Notifications"
+  },
   "author": "Paul Willems",
   "license": "ISC",
   "bugs": {
